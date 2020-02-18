@@ -1,0 +1,27 @@
+empno,empname,dob,sex,city,state,expyr,salary,hra
+12556,Supriya Awasthi,1987-11-25,F,Nasik,Maharashtra,4,62000,8000
+20101,Rishav Sen,1980-05-13,M,Kolkata,West Bengal,10.0,122131,10000
+20669,Varun Mitra,1959-05-13,M,Chennai,Tamil Nadu,5.5,80000,6600
+22781,Pradip Lal,1995-04-20,M,Kharagpur,West Bengal,1.3,42500,7500
+23819,Biplab Mitra,1974-07-18,M,Kolkata,West Bengal,10.2,122000,8900
+30955,Joydip Bose,1985-12-28,M,Kolkata,West Bengal,5.2,75000,6500
+31504,Aminul Islam,1990-12-13,M,Mumbai,Maharashtra,3.5,62500,5500
+32190,Himadri Sinha,1985-11-30,M,Hyderabad,Andhra Pradesh,7.0,92500,8500
+37621,Ajay Sharma,1986-05-16,M,Mumbai,Maharashtra,4.1,64500,5000
+44231,Deblina Bannerjee,1980-05-19,F,Vizag,Andhra Pradesh,6.3,76000,6700
+53095,Melvin George,1983-08-21,M,Guwahati,Assam,5.0,78000,8000
+55091,Savitha Nair,1989-06-28,F,Bangalore,Karnataka,4.1,65000,8000
+55123,Dipa Arora,1980-10-17,F,Delhi,Delhi,7.9,101320,6000
+56123,Ayan Goswami,1991-02-21,M,Guwahati,Assam,5.5,81000,9000
+56128,Niladri Kumar,1988-12-15,M,Mangalore,Karnataka,3.0,61250,7600
+56712,K Muralidharan,1979-03-17,M,Hyderabad,Andhra Pradesh,6.2,75400,5500
+59012,Renuka Srivastav,1992-04-21,F,Delhi,Delhi,4.5,65000,6000
+61299,Souvik Sinha,1990-01-13,M,Vellore,Tami Nadu,2.0,46000,7000
+66120,Kiran Sethi,1996-05-15,F,Bangalore,Karnataka,1.1,39500,13500
+67120,Sanjay Roy,1984-10-14,M,Delhi,Delhi,3.0,60150,5700
+67991,Abida Jahan,1981-10-21,F,Chennai,Tami Nadu,7.6,101000,7500
+72188,Akash Goel,1987-03-15,M,Bangalore,Karnataka,6.1,76000,9000
+78123,Anitha Sharma,1981-12-21,F,Chennai,Tamil Nadu,7.2,98450,9000
+82190,Kenneth Dcosta,1991-12-27,M,Guwahati,Assam,3.5,62100,5600
+90102,Priya Mukherjee,1986-11-19,F,Kolkata,West Bengal,6.0,88200,9550
+91556,P K Kamath,1983-01-14,M,Mumbai,Maharashtra,6.8,92850,15000
