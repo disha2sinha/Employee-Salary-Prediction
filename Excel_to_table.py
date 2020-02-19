@@ -20,9 +20,12 @@ class excel_to_df():
         try:
             empsal_df=pd.read_excel('empsal_excel.xlsx', index_col='empno')
             if(len(empsal_df)==0):
-                msg.showinfo('Warning','CSV has no records')
+                msg.showinfo('Warning','Excel file has no records')
             else:
                 msg.showinfo('Message','Pandas df created')
+                print("Pandas Dataframe:")
+                print(empsal_df)
+
             self.f = Frame(root, height=300, width=300) 
             self.f.pack(fill=BOTH,expand=1)
         
@@ -32,7 +35,7 @@ class excel_to_df():
             msg.showerror('Error in opening file',e)                
 #---------------------------------
 root = Tk()
-root.title('Create CSV')
+root.title('Excel to DF')
 root.geometry('800x800')
 obj=excel_to_df(root)
 root.mainloop()
