@@ -8,8 +8,8 @@ class create_csv():
         self.f.pack()
 
         self.message_label=Label(self.f,text='Display the Empsal CSV:',font=('Roman',24,'bold'),fg='navy blue')
-        self.confirm_button=Button(self.f,text='Display',font=('Arial',14),bg='green',fg='White',command=self.conv_to_csv)
-        self.exit_button=Button(self.f,text='Exit',font=('Arial',14),bg='red',fg='White',command=root.destroy)
+        self.confirm_button=Button(self.f,text='Display',font=('Arial',14),bg='light green',fg='White',command=self.conv_to_csv,activeforeground='green')
+        self.exit_button=Button(self.f,text='Exit',font=('Arial',14),bg='pink',fg='White',command=root.destroy,activeforeground='red')
 
         self.message_label.grid(row=1,column=1)
         self.confirm_button.grid(row=3,column=0)
