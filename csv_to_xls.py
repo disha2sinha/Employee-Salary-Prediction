@@ -33,7 +33,7 @@ class csv_to_excel():
                   
 #---------------------------------
 root = Tk()
-root.title('Create CSV')
+root.title('CSV to Excel File')
 root.geometry('800x800')
 obj=csv_to_excel(root)
 root.mainloop()
