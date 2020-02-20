@@ -22,7 +22,7 @@ class csv_to_excel():
             if(len(empsal_df)==0):
                 msg.showinfo('Warning','CSV has no rows')
             else:
-                writer=ExcelWriter('Empsal_excel.xlsx')
+                writer=ExcelWriter('Empsal.xlsx')
                 empsal_df.to_excel(writer,'Sheet1')
                 writer.save()
                 msg.showinfo('Message','Excel file created')
