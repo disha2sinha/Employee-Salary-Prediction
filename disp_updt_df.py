@@ -19,7 +19,7 @@ class updt_df:
         self.exit_button.grid(row=3,column=2)
     def update_df(self):
         try:
-            empsal_df=pd.read_excel("Empsal.xlsx",parse_dates=['dob'],index_col='empno')
+            empsal_df=pd.read_excel("Empsal.xlsx",index_col='empno')
             def age_cal(dob):
                 today=date.today()
                 Age=today.year-dob.year-((today.month,today.day)<(dob.month,dob.day))
@@ -29,6 +29,7 @@ class updt_df:
             empsal_df['conv']=0.01 * empsal_df['salary']
             empsal_df['total']=empsal_df['salary'] + empsal_df['hra'] + empsal_df['conv']
             print(empsal_df.head(10))
+            empsal_df.to_csv('empsalupdated.csv')
             if(len(empsal_df)==0):
                 msg.showinfo('Warning','No records')
             else:
