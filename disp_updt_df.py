@@ -26,7 +26,7 @@ class updt_df:
                 return Age
             empsal_df['Age']=empsal_df['dob'].apply(age_cal)
 
-            empsal_df['conv']=0.01 * empsal_df['salary']
+            empsal_df['conv']=0.1 * empsal_df['salary']
             empsal_df['total']=empsal_df['salary'] + empsal_df['hra'] + empsal_df['conv']
             print(empsal_df.head(10))
             empsal_df.to_csv('empsalupdated.csv')
