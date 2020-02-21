@@ -43,9 +43,9 @@ class Predict_salary:
 
     def predict_salary(self):
         try:
-            if(os.path.exists(r'C:\Users\Debanjana\Documents\datasets\empsal.csv')):
+            if(os.path.exists('empsal.csv')):
 
-                    data=pd.read_csv(r"C:\Users\Debanjana\Documents\datasets\empsal.csv",parse_dates=True,infer_datetime_format=True)
+                    data=pd.read_csv("empsal.csv",parse_dates=True,infer_datetime_format=True)
 
                     print(data.head())
                     def calculate_age(dob):
