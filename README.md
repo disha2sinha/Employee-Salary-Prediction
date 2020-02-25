@@ -42,7 +42,7 @@ Added columns Age,conv(10% of salary) & total(salary+hra+conv)
 
 ##### Bar Plot with 'state' as X-axis and all sum values as Bars:
 
-![](https://user-images.githubusercontent.com/42354197/75104604-6076b500-5631-11ea-9462-ca323db1a76e.png)
+![](https://user-images.githubusercontent.com/42354197/75227008-686e5a80-57d3-11ea-8a9f-f2dbe3b5b73d.png)
 
 #### Scatter Plot- Experience Vs Salary of Employees:
 
