@@ -12,7 +12,7 @@ empno,empname,dob,sex,city,state,expyr,salary,hra,Age,conv,total
 53095,Melvin George,1983-08-21,M,Guwahati,Assam,5.0,78000,8000,36,7800.0,93800.0
 55091,Savitha Nair,1989-06-28,F,Bangalore,Karnataka,4.1,65000,8000,30,6500.0,79500.0
 55123,Dipa Arora,1980-10-17,F,Delhi,Delhi,7.9,101320,6000,39,10132.0,117452.0
-56123,Ayan Goswami,1991-02-21,M,Guwahati,Assam,5.5,81000,9000,28,8100.0,98100.0
+56123,Ayan Goswami,1991-02-21,M,Guwahati,Assam,5.5,81000,9000,29,8100.0,98100.0
 56128,Niladri Kumar,1988-12-15,M,Mangalore,Karnataka,3.0,61250,7600,31,6125.0,74975.0
 56712,K Muralidharan,1979-03-17,M,Hyderabad,Andhra Pradesh,6.2,75400,5500,40,7540.0,88440.0
 59012,Renuka Srivastav,1992-04-21,F,Delhi,Delhi,4.5,65000,6000,27,6500.0,77500.0

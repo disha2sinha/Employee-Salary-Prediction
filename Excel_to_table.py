@@ -18,7 +18,7 @@ class excel_to_df():
         self.exit_button.grid(row=3,column=2)
     def conv_to_df(self):
         try:
-            empsal_df=pd.read_excel('empsal_excel.xlsx', index_col='empno')
+            empsal_df=pd.read_excel('Empsal.xlsx', index_col='empno')
             if(len(empsal_df)==0):
                 msg.showinfo('Warning','Excel file has no records')
             else:

@@ -19,7 +19,7 @@ class updt_df:
         self.exit_button.grid(row=3,column=2)
     def update_df(self):
         try:
-            empsal_df=pd.read_excel("Empsal.xlsx",index_col='empno')
+            empsal_df=pd.read_excel("Empsal.xlsx",index_col='empno',parse_dates=['dob'])
             def age_cal(dob):
                 today=date.today()
                 Age=today.year-dob.year-((today.month,today.day)<(dob.month,dob.day))
