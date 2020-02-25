@@ -61,7 +61,7 @@ class empsal:
     def scatter_plot(self):
         os.system("python.exe scatter_plot.py")
     def predict_salary(self):
-        os.system("python.exe predict_salary.py")
+        os.system("python.exe predictSalary.py")
         
 
         
